@@ -1,3 +1,5 @@
+require 'redcarpet'
+
 class Treedoc::MarkdownTemplateHandler
   class_attribute :default_format
   self.default_format = Mime::HTML
