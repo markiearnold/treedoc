@@ -56,7 +56,7 @@ These URLs will all now work, rendering the appropriate document inside your app
     
 Any missing documents (eg `/faqa/whatever`) will raise a standard `ActionView::TemplateNotFound` error, which is generally rendered by Rails as  a 404 error in production.
 
-An example application can be [found here](https://github.com/justinfrench/treedoc-example).
+An example application can be [found here](https://github.com/justinfrench/treedoc_example).
 
 
 ## Caveats (or benefits, depending on your perspective)
@@ -106,7 +106,7 @@ This allows you to invite contributions using Github's online collaboration and 
     # Gemfile
     gem 'faqs', :git => 'https://github.com/justinfrench/treedoc-content-example.git'
     
-An example document repository can be [found here](https://github.com/justinfrench/treedoc-content-example).
+An example document repository can be [found here](https://github.com/justinfrench/treedoc_content_example).
 
 
 ## Project Status
