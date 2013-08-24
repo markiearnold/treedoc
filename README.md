@@ -61,6 +61,8 @@ An example application can be [found here](https://github.com/justinfrench/treed
 
 ## Caveats (or benefits, depending on your perspective)
 
+There isn't a much code here, we're mostly relying on Rails engines and ActionView — you could do something similar in your own app pretty quick.
+
 Treedoc doesn't impose any specific user interface or user experience into your documents. It doesn't assume the ordering of documents, it doesn't generate index files or interface widgets for navigation.
 
 It's up to you to create your own links between the documents, introduce each section and guide your users through your pages. It's a bit of manual work, but you get exactly what you need.
