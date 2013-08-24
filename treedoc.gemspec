@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Justin French"]
   s.email       = ["justin@indent.com.au"]
   s.homepage    = "http://github.com/justinfrench/treedoc"
-  s.summary     = "Render a tree of Markdown documents inside your Rails app."
+  s.summary     = "Github + Markdown files as a CMS for your Rails app."
   s.description = "Render a tree of Markdown documents inside your Rails app."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
