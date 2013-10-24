@@ -19,7 +19,7 @@ module Treedoc
     # environment you'll see this exception. In a production app, this is 
     # usually caught by Rails and presented as a 404 error to the user.
     def render_document
-      render(:file => request_path).html_safe
+      render(:template => request_path).html_safe
     end
 
     protected
